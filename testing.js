@@ -1,81 +1,98 @@
 //1 write a function that print the area of a recangle given it length and weight
-psuedocode;
+pseudocode
+//multily length and weight
+//print finally result
+function areaRecangle(numlength30,numweight40){
+    return numlength30 * numweight40;
+    }
+    console.log("the area of a recangle is " + areaRecangle(30,40));
 
-// Determain area of a recangle
-//multiply length and weight
-//print final answer
 
 //2 Write a function that converts a temperature from Celsius to Fahrenheit and prints the result.
-psuedocode;
+pseudocode
+//state the formular for fahrenheit 
+//multiply celsius with the value of fahrenheit
+//print result
 
-//write the given name celsius bind with a const
-//reveser name using a let
-// print final result
+function convert(Celsius){
+    let Fahrenheit = (Celsius * 9/5) + 32;
+   return Fahrenheit;
+}
+
 
 //3 Write a function that calculates the factorial of a number and prints the result.
-psuedocode;
+//state the factorial number
+//state the factorial number multiply till the final result
 
-//choose a number of the factorial
-//multiply num from the choosen factorial to the last digit given 1
-//print final result
+function theFactorial(number){
+    let result = 5
+    for (let i = 5; i <= number; i++){
+        result = result * i;
+    }
+    return result;
+}
 
 //4 Write a function that checks if a number is prime and prints "Prime" or "Not Prime".
-psuedocode;
+//pseudocode
 
-//let prime num be 1_8
-//while prime num be 8_10
-// print result
+
+
 
 //5 Write a function that calculates the sum of all even numbers between 1 and a given number, then prints the result.
-psuedocode;
+//pseudocode
+//sum variable to 0
+//add a loop through all even numbers from 2 to the given limit (incrementing by 2 each time 
+//add each even numbers to sum
+function sumEvenNumbers (limit){
+    let sum = 0
+    for (let i = 2; i <= limit; i += 2){
+        sum = sum + i;
+    }
+    return sum;
+}
 
-//let the sum of all even numbers be 1
-//given numbers should be <= 20
-//print final result
 
 //6 Write a function that calculates the compound interest given principal, rate, time, and number of compounding periods, then prints the result.
-psuedocode;
-
+//pseudocode
 //let the given principal for time be 1
 //let the given principal for rate be 2
-// Determain the number of time and rate by string
+ //Determain the number of time and rate by string
 //print the final result
+
+
 
 //7 Write a function that calculates the volume of a sphere given its radius and prints the result.
-psuedocode;
-
-//if the volume of the sphere is =r^8
-//let the number of volume be 10
-//print final result
+//pseudocode
 
 //8 Write a function that calculates the hypotenuse of a right-angled triangle given the other two sides and prints the result.
-psuedocode;
+//pseudocode
 
-//Determain the side of the triangle
-//let the first side be given a num of 1
-//let the second side be given a num of 5
-//print the final result
+Determain the side of the triangle
+let the first side be given a num of 1
+let the second side be given a num of 5
+print the final result
 
 //9: Write a function that calculates the Body Mass Index (BMI) given weight (in kg) and height (in meters), then prints the BMI category (Underweight, Normal, Overweight, Obese).
 
-psuedocode;
+//pseudocode
 
-//Determain the height and weight
-//if bmi is 20.5 print underweight
-//if bmi is above 20.5 and 28.9 print normal
-// if it is 29.9 and 30 print overweight
-//if it is >30print obese
+
+Determain the height and weight
+if bmi is 20.5 print underweight
+if bmi is above 20.5 and 28.9 print normal
+ if it is 29.9 and 30 print overweight
+if it is >30print obese
 
 //10  Write a function that calculates the sum of the digits of a number and prints the result.
-psuedocode;
+//pseudocode
 
-//Determain the digit of an inputted number
-//sum from 1 to the digit
+Determain the digit of an inputted number
+sum from 1 to the digit
 
 //14: Write a function that calculates the greatest common divisor (GCD) of two numbers and prints the result.
-psuedocode;
+//pseudocode
 
-//Determain common numbers of the divisor
-//Divide both numbers without remainders
-//find a number that can divide the two numbers
-//print out result
+Determain common numbers of the divisor
+Divide both numbers without remainders
+find a number that can divide the two numbers
+print out result
